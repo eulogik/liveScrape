@@ -4,7 +4,7 @@ var artoo = require('artoo-js');
 
 var url = "http://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=b&lo=apparel&rh=i%3Aaps%2Ck%3Ab";
 var repeatedNode = '#s-results-list-atf a.s-access-detail-page';
-var params = {url: 'href', title: 'text', img: function(){return $(this).parent().parent().parent().find('img.s-access-image').attr('src')}};
+var params = {url: 'href', title: 'text', img: function(){return $(this).parent().parent().parent().find('img.s-access-image').attr('src')}, category: function(){return $(this).parent().parent().find('a.a-size-small>span.a-text-bold').text().slice(0, -1);}};
 
 request(url, function(err, resp, body) {
         if (err)

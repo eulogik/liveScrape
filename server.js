@@ -30,6 +30,6 @@ request(url, function(err, resp, body) {
 
     });
 });
-app.listen('8081')
-console.log('It\'s cooking on port 8081');
+app.listen('3030')
+console.log('It\'s cooking on port http://localhost:3030/scrape');
 exports = module.exports = app;

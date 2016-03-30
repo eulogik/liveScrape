@@ -1,9 +1,12 @@
 {
-  "name"         : "scrapebox",
-  "version"      : "0.0.3",
-  "description"  : "Easy Scraping using Node.JS",
+  "name"         : "livescrape",
+  "version"      : "1.0.3",
+  "description"  : "Live Scraping service using Express, Cheerio & Artoo-JS on NodeJS.",
   "main"         : "server.js",
-  "author"       : "Eulogik",
+  "license"      : "MIT",
+  "author"       : "Eulogik <info@eulogik.com> (http://eulogik.com)",
+  "repository"   : "github:eulogik/liveScrape",
+  "config"       : { "port" : "3030" },
   "dependencies" : {
     "express"    : "latest",
     "request"    : "latest",

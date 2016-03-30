@@ -1,8 +1,11 @@
-# liveScrape
+# livescrape
 Live Scraping service using Express, Cheerio &amp; Artoo-JS on NodeJS.
-
+##NPM Package
+```
+https://www.npmjs.com/package/livescrape
+```
 ##Getting Started
-Clone the repository and run as a service on `http://localhost:3030`.
+Install npm package by `npm install livescrape` and run as a service on `http://localhost:3030`.
 Call the service on `http://localhost:3030/scrape` with parameters `url`, `repeatedNode` and `params`
 
 ###Example parameters:

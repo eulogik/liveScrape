@@ -1,5 +1,5 @@
 # liveScrape
-Live Scraping example using Cheerio &amp; Artoo-JS
+Live Scraping service using Express, Cheerio &amp; Artoo-JS on NodeJS.
 
 ##Getting Started
 Clone the repository and run as a service on `http://localhost:3030`.

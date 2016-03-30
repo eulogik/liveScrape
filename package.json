@@ -1,6 +1,6 @@
 {
   "name"         : "scrapebox",
-  "version"      : "0.0.2",
+  "version"      : "0.0.3",
   "description"  : "Easy Scraping using Node.JS",
   "main"         : "server.js",
   "author"       : "Eulogik",

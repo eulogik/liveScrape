@@ -1,6 +1,6 @@
 {
   "name"         : "livescrape",
-  "version"      : "1.0.3",
+  "version"      : "1.0.4",
   "description"  : "Live Scraping service using Express, Cheerio & Artoo-JS on NodeJS.",
   "main"         : "server.js",
   "license"      : "MIT",
